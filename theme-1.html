@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        *,body{
+            font-family: monospace;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 192, 203);
+        }
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-size: xx-large;
+            text-align: center;
+        }
+        footer{
+            text-align: end;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To use app again refresh this page. </h1>
+    <div class="container">
+        <br>
+        <p class="one"></p>
+        <p class="two"></p>
+        <p class="three"></p>
+        <p class="four"></p>
+        <p class="five"></p>
+        <p class="six"></p>
+        <p class="seven"></p>
+        <p class="eight"></p>
+        <p class="nine"></p>
+        <p class="ten"></p>
+    </div>
+    <footer>Copyright 2024 - MIT License</footer>
+</body>
+<script>
+    const tableContainer1 = document.querySelector(".one");
+    const tableContainer2 = document.querySelector(".two");
+    const tableContainer3 = document.querySelector(".three");
+    const tableContainer4 = document.querySelector(".four");
+    const tableContainer5 = document.querySelector(".five");
+    const tableContainer6 = document.querySelector(".six");
+    const tableContainer7 = document.querySelector(".seven");
+    const tableContainer8 = document.querySelector(".eight");
+    const tableContainer9 = document.querySelector(".nine");
+    const tableContainer10 = document.querySelector(".ten");
+    alert("This app will tell you table of any number till ten .Press OK to continue");
+    tableOf = +prompt("Enter a number whose table you want.");
+    tableOne = (tableOf + " x " + "1 = " + tableOf * 1 + " ");
+    tableTwo = (tableOf + " x " + "2 = " + tableOf * 2 + " ");
+    tableThree = (tableOf + " x " + "3 = " + tableOf * 3 + " ");
+    tableFour = (tableOf + " x " + "4 = " + tableOf * 4 + " ");
+    tableFive = (tableOf + " x " + "5 = " + tableOf * 5 + " ");
+    tableSix = (tableOf + " x " + "6 = " + tableOf * 6 + " ");
+    tableSeven = (tableOf + " x " + "7 = " + tableOf * 7 + " ");
+    tableEight = (tableOf + " x " + "8 = " + tableOf * 8 + " ");
+    tableNine = (tableOf + " x " + "9 = " + tableOf * 9 + " ");
+    tableTen = (tableOf + " x " + "10 =" + tableOf * 10 + " ");
+    tableContainer1.innerText = tableOne;
+    tableContainer2.innerText = tableTwo;
+    tableContainer3.innerText = tableThree;
+    tableContainer4.innerText = tableFour;
+    tableContainer5.innerText = tableFive;
+    tableContainer6.innerText = tableSix;
+    tableContainer7.innerText = tableSeven;
+    tableContainer8.innerText = tableEight;
+    tableContainer9.innerText = tableNine;
+    tableContainer10.innerText = tableTen;
+
+</script>
+
+</html>
